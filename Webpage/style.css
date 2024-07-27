@@ -1,0 +1,128 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    color: #080808;
+}
+.top-header {
+    background: linear-gradient(to right, hsl(0, 1%, 17%), #181616);
+    color: #ffffff;
+    padding: 0.1rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.top-header .contact-info {
+    display: flex;
+    align-items: center;
+}
+.top-header .contact-info a {
+    color: #fff;
+    text-decoration: none;
+}
+.top-header .contact-info a:hover{
+    color: #ff0000;
+}
+.top-header .social-media {
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.top-header .social-media a {
+    margin-left: 1rem;
+    padding: 5px;
+    color: #ffffff;
+}
+.top-header .social-media a:hover {
+    color: #ff0000;
+}
+
+.top-header .fa {
+    margin-right: 0.5rem;
+}
+header {
+    background: linear-gradient(to right, #e0181c, #b72905);
+    padding: 0.2rem 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+nav a img {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-left: 2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #0f0f0f;
+}
+
+.hero {
+    text-align: center;
+    padding: 5rem 0;
+    background-image: url("img/home_banner1.jpg");
+    background-size: cover; /* Ensure the background image covers the entire section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    animation: fadeIn 2s;
+    height: 200px;
+    color: white;
+    
+}
+.hero h1 {
+    font-size: 60px;
+    text-align: left;
+    padding-left: 100px;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+section {
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #111;
+    color: #fff;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
